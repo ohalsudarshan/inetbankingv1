@@ -2,8 +2,11 @@ com\inetBanking\testCases\TC_LoginTest_001.class
 com\inetBanking\utilities\ReadConfig.class
 com\inetBanking\testCases\TC_AddCustomerTest_003.class
 com\inetBanking\utilities\Reporting.class
+com\inetBanking\pagaObjects\NewAccount.class
 com\inetBanking\testCases\TC_LoginDDT_002.class
+com\inetBanking\testCases\TC_EditCustomer_004.class
 com\inetBanking\utilities\XLUtils.class
 com\inetBanking\testCases\BaseClass.class
 com\inetBanking\pagaObjects\LoginPage.class
 com\inetBanking\pagaObjects\AddCustomerPage.class
+com\inetBanking\testCases\TC_NewAccountTest_005.class

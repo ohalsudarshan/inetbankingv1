@@ -12,14 +12,14 @@
       <parameter name="browser" value="firefox"/>
       
       <classes>
-	       
-      <class name="com.inetBanking.testCases.TC_LoginTest_001"/>  
-      
-      
-      
-      <!-- <class name="com.inetBanking.testCases.TC_LoginDDT_002"/> -->
-       <!-- <class name="com.inetBanking.testCases.TC_AddCustomerTest_003"/> -->
-      
+	          
+	          <class name="com.inetBanking.testCases.TC_LoginTest_001"/>
+	         
+	          <class name="com.inetBanking.testCases.TC_NewAccountTest_005"/>
+	          
+	          <!--  <class name="com.inetBanking.testCases.TC_LoginDDT_002"/> -->
+	
+	
       </classes>
   </test> 
    

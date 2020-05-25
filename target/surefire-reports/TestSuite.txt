@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.22 sec - in TestSuite
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 9.159 sec <<< FAILURE! - in TestSuite
+setup(com.inetBanking.testCases.TC_LoginTest_001)  Time elapsed: 8.718 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LKNDSS5CJCRQ2', ip: '192.168.43.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 26672, moz:profile: C:\Users\p10482934\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 238518ae-bbd4-4371-87cc-5d773a2bb9fe
+
+NewAccount(com.inetBanking.testCases.TC_NewAccountTest_005)  Time elapsed: 8.83 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [NewAccount] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
