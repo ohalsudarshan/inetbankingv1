@@ -7,13 +7,13 @@
   <test thread-count="5" name="BankingApp Test(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.inetBanking.testCases.TC_NewAccountTest_005">
+      <class name="com.inetBanking.testCases.TC_DeleteAccount_007">
         <methods>
-          <include name="NewAccount"/>
           <include name="setup"/>
+          <include name="DeleteAccount"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.inetBanking.testCases.TC_NewAccountTest_005 -->
+      </class> <!-- com.inetBanking.testCases.TC_DeleteAccount_007 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [InetBankingV1] -->

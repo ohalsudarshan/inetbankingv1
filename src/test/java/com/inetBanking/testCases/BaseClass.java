@@ -8,6 +8,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -86,4 +87,15 @@ public class BaseClass {
 		return (generatedstring2);
 	}
 	
+	public boolean isAlertPresent()	//user defined method to check alert is present on not
+	{	try
+		{
+		driver.switchTo().alert();
+		return true;
+		}
+		catch(NoAlertPresentException e)
+		{
+			return false;
+		}
+	}
 }

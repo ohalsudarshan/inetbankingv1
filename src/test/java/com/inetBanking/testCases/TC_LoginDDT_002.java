@@ -41,19 +41,7 @@ public class TC_LoginDDT_002 extends BaseClass
 			driver.switchTo().defaultContent();
 		}
 				
-	}
-	
-	public boolean isAlertPresent()	//user defined method to check alert is present on not
-	{	try
-		{
-		driver.switchTo().alert();
-		return true;
-		}
-		catch(NoAlertPresentException e)
-		{
-			return false;
-		}
-	}
+	}	
 	
 	@DataProvider(name="LoginData")
 	String[] [] getData() throws IOException
